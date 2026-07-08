@@ -17,10 +17,6 @@ build/
 out/
 
 # Environment Variables (ආරක්ෂාව සඳහා ඉතා වැදගත්)
-.env
-.env.test
-.env.production
-.env.local
 
 # Optional REPL history
 .node_repl_history
@@ -29,7 +25,6 @@ out/
 *.tgz
 
 # Editor directories and files
-.vscode/
 .idea/
 *.suo
 *.ntvs*
@@ -45,3 +40,8 @@ out/
 .Trashes
 ehthumbs.db
 Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat

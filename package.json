@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
- "scripts": {
-  "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
-  "build": "tsc",
-  "start": "node dist/app.js"
-},
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,6 +19,8 @@
   },
   "dependencies": {
     "@restingowlorg/owltokenguard": "^1.0.0",
-    "express": "^5.2.1"
+    "dotenv": "^8.2.0",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
   }
 }
